@@ -1057,29 +1057,8 @@ body {
     background: #980B26;
     color: #fff; }
 
-.menu_content {
-  width: 100rem;
-  height: 75rem;
-  position: relative; }
-
-.hardcore__losung {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 10rem;
-  color: black; }
-
-.mtn_logo {
-  width: 70rem;
-  position: absolute;
-  top: 42rem; }
-
-.sun_logo {
-  width: 30rem;
-  position: absolute;
-  top: 320px;
-  left: 200px;
-  height: 300px; }
+.image_svg {
+  position: absolute; }
 
 .lozung {
   display: -webkit-box;
@@ -1139,3 +1118,19 @@ body {
         background: #fff;
         border: 1px solid #fff;
         color: #000; } }
+
+@media handheld {
+  .image_svg {
+    position: absolute; }
+  .lozung {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+    padding-top: 45rem;
+    color: black;
+    font-size: 30px; }
+  .red_word {
+    color: #980B26; } }

@@ -103,11 +103,11 @@ body {
     }
 }
 
-.menu_content {
-    width: 100rem;
-    height: 75rem;
-    position: relative;
-}
+//.menu_content {
+//    width: 100rem;
+//    height: 75rem;
+//    position: relative;
+//}
 
 //.hardcore__losung {
 //    display: flex;
@@ -130,6 +130,10 @@ body {
 //    height: 300px;
 //}
 
+.image_svg {
+    position: absolute;
+}
+
 .lozung {
     display: flex;
     justify-content: right;
@@ -141,10 +145,6 @@ body {
 .red_word {
     color: #980B26;
 }
-
-
-
-
 
 
 
@@ -218,3 +218,20 @@ body {
     }
 }
 
+@media handheld {
+    .image_svg {
+        position: absolute;
+    }
+
+    .lozung {
+        display: flex;
+        justify-content: right;
+        padding-top: 45rem;
+        color: black;
+        font-size: 30px;
+    }
+
+    .red_word {
+        color: #980B26;
+    }
+}
