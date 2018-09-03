@@ -17,7 +17,7 @@ body {
 }
 
 .nav {
-    min-height: 10rem;
+    min-height: 13rem;
     height: auto;
     background: rgba(255, 255, 255, 0.9);
     position: fixed;
@@ -130,32 +130,22 @@ body {
 //    height: 300px;
 //}
 
-.image_svg {
-    position: absolute;
-}
-
-.lozung {
-    display: flex;
-    justify-content: right;
-    padding-top: 45rem;
-    color: black;
-    font-size: 30px;
-}
-
-.red_word {
-    color: #980B26;
-}
-
-
-
-
-
-
-
-
-
-
-
+//.image_svg {
+//    position: absolute;
+//}
+//
+//.lozung {
+//    display: flex;
+//    justify-content: right;
+//    padding-top: 45rem;
+//    color: black;
+//    font-size: 30px;
+//}
+//
+//.red_word {
+//    color: #980B26;
+//}
+//
 
 
 
@@ -165,7 +155,7 @@ body {
 
 @media (min-width: 60.0rem) {
     .nav {
-        height: 5rem;
+        height: 10rem;
 
         &__container {
             flex-direction: row;

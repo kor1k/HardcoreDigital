@@ -973,7 +973,7 @@ body {
   font-family: Roboto, sans-serif; }
 
 .nav {
-  min-height: 10rem;
+  min-height: 13rem;
   height: auto;
   background: rgba(255, 255, 255, 0.9);
   position: fixed;
@@ -1057,26 +1057,9 @@ body {
     background: #980B26;
     color: #fff; }
 
-.image_svg {
-  position: absolute; }
-
-.lozung {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-  -ms-flex-pack: right;
-  justify-content: right;
-  padding-top: 45rem;
-  color: black;
-  font-size: 30px; }
-
-.red_word {
-  color: #980B26; }
-
 @media (min-width: 60rem) {
   .nav {
-    height: 5rem; }
+    height: 10rem; }
     .nav__container {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
