@@ -1,8 +1,8 @@
 @import "milligram";
 @import "normalize";
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
-
+//@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 $dark: #000;
 $dark-hover: #980B26;
 $light: #fff;
@@ -17,13 +17,13 @@ body {
 }
 
 .nav {
-    min-height: 8rem;
+    min-height: 9rem;
     height: auto;
     background: rgba(255, 255, 255, 0.9);
     position: fixed;
     width: 100%;
     z-index: 9000;
-    box-shadow: 0 20px 100px 0 rgba(200, 123, 123, .7);
+    box-shadow: 0 8px 20px 0 rgba(200, 123, 123, .5);
     text-align: center;
 
     &__container {
@@ -103,6 +103,14 @@ body {
     }
 }
 
+.image_main {
+    padding-top: 16rem;
+}
+
+.offers_text {
+    font-size: 6rem;
+    color: black;
+}
 
 
 
@@ -159,22 +167,11 @@ body {
             }
         }
     }
-}
 
-@media handheld {
-    .image_svg {
-        position: absolute;
-    }
-
-    .lozung {
+    .image_main {
+        width: auto;
         display: flex;
-        justify-content: right;
-        padding-top: 45rem;
-        color: black;
-        font-size: 30px;
-    }
-
-    .red_word {
-        color: #980B26;
+        justify-content: center;
+        align-items: center;
     }
 }

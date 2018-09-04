@@ -5,7 +5,7 @@
  * Copyright (c) 2017 CJ Patoilo
  * Licensed under the MIT license
  */
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 *,
 *:after,
 *:before {
@@ -973,14 +973,14 @@ body {
   font-family: Roboto, sans-serif; }
 
 .nav {
-  min-height: 8rem;
+  min-height: 9rem;
   height: auto;
   background: rgba(255, 255, 255, 0.9);
   position: fixed;
   width: 100%;
   z-index: 9000;
-  -webkit-box-shadow: 0 20px 100px 0 rgba(200, 123, 123, 0.7);
-  box-shadow: 0 20px 100px 0 rgba(200, 123, 123, 0.7);
+  -webkit-box-shadow: 0 8px 20px 0 rgba(200, 123, 123, 0.5);
+  box-shadow: 0 8px 20px 0 rgba(200, 123, 123, 0.5);
   text-align: center; }
   .nav__container {
     height: 100%;
@@ -1057,6 +1057,13 @@ body {
     background: #980B26;
     color: #fff; }
 
+.image_main {
+  padding-top: 16rem; }
+
+.offers_text {
+  font-size: 6rem;
+  color: black; }
+
 @media (min-width: 60rem) {
   .nav {
     height: 8rem; }
@@ -1100,20 +1107,15 @@ body {
       .lang-buttons__button:hover {
         background: #fff;
         border: 1px solid #fff;
-        color: #000; } }
-
-@media handheld {
-  .image_svg {
-    position: absolute; }
-  .lozung {
+        color: #000; }
+  .image_main {
+    width: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: right;
-    -ms-flex-pack: right;
-    justify-content: right;
-    padding-top: 45rem;
-    color: black;
-    font-size: 30px; }
-  .red_word {
-    color: #980B26; } }
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; } }
