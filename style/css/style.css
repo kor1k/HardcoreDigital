@@ -973,7 +973,7 @@ body {
   font-family: Roboto, sans-serif; }
 
 .nav {
-  min-height: 9rem;
+  min-height: 12rem;
   height: auto;
   background: rgba(255, 255, 255, 0.9);
   position: fixed;
@@ -1058,33 +1058,35 @@ body {
     color: #fff; }
 
 .svg_logotype {
-  padding-top: 16rem; }
+  padding-top: 18rem; }
   .svg_logotype__image_main {
     height: 3rem;
     width: 3rem; }
 
 .offers_text {
   padding-top: 6rem;
-  font-size: 4rem;
-  color: black; }
+  font-size: 5rem;
+  color: #000; }
 
-.inWorkTestBlock {
-  margin-top: 10rem;
+.text_inMain {
+  font-size: 35px;
+  color: #000;
+  position: absolute;
+  margin-left: 64rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-size: 10rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  float: left; }
+
+.text_inMain_red {
   color: #980B26; }
 
-.smile1 {
-  width: 10rem;
-  height: 10rem; }
+.logotype {
+  position: relative; }
 
 @media (min-width: 60rem) {
   .nav {
@@ -1148,14 +1150,3 @@ body {
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row; } }
-
-.text_inMain {
-  font-size: 35px;
-  color: #980B26;
-  display: block; }
-
-.logotype {
-  width: auto; }
-
-path {
-  padding-left: 20px; }

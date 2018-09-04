@@ -17,7 +17,7 @@ body {
 }
 
 .nav {
-    min-height: 9rem;
+    min-height: 12rem;
     height: auto;
     background: rgba(255, 255, 255, 0.9);
     position: fixed;
@@ -104,40 +104,36 @@ body {
 }
 ///////////////////////////////////IMPORTANT///////////////////////////////////
 .svg_logotype {
-    padding-top: 16rem;
+    padding-top: 18rem;
 
     &__image_main {
         height: 3rem;
         width: 3rem;
     }
 }
-///////////////////////////////////IMPORTANT///////////////////////////////////
+//\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\IMPORTANT\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 .offers_text {
     padding-top: 6rem;
-    font-size: 4rem;
-    color: black;
+    font-size: 5rem;
+    color: $dark;
 }
 
-//.testMedia1print {
-//    display: flex;
-//    justify-content: center;
-//    align-items: center;
-//    color: #9b4dca;
-//    font-size: 3rem;
-//}
 
-.inWorkTestBlock {
-    margin-top: 10rem;
+.text_inMain {
+    font-size: 35px ;
+    color: $dark;
+    position: absolute;
+    margin-left: 64rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 10rem;
+    flex-direction: column;
+    float: left;
+}
+.text_inMain_red {
     color: #980B26;
 }
 
-.smile1 {
-    width: 10rem;
-    height: 10rem;
+.logotype {
+    position: relative;
 }
 
 
@@ -212,25 +208,5 @@ body {
         align-items: center;
     }
 }
+//////////////////////////////////////////////////
 
-//@media print {
-//    .testMedia1print {
-//        color: red;
-//        font-size: 50px;
-//        background-color: yellow;
-//    }
-//}
-
-.text_inMain {
-    font-size: 35px ;
-    color: #980B26;
-    display: block;
-}
-
-.logotype {
-    width: auto;
-}
-
-path {
-    padding-left: 20px;
-}
