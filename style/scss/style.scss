@@ -17,7 +17,7 @@ body {
 }
 
 .nav {
-    min-height: 13rem;
+    min-height: 8rem;
     height: auto;
     background: rgba(255, 255, 255, 0.9);
     position: fixed;
@@ -155,7 +155,7 @@ body {
 
 @media (min-width: 60.0rem) {
     .nav {
-        height: 10rem;
+        height: 8rem;
 
         &__container {
             flex-direction: row;

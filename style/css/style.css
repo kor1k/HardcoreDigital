@@ -973,7 +973,7 @@ body {
   font-family: Roboto, sans-serif; }
 
 .nav {
-  min-height: 13rem;
+  min-height: 8rem;
   height: auto;
   background: rgba(255, 255, 255, 0.9);
   position: fixed;
@@ -1059,7 +1059,7 @@ body {
 
 @media (min-width: 60rem) {
   .nav {
-    height: 10rem; }
+    height: 8rem; }
     .nav__container {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
