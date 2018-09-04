@@ -1057,13 +1057,34 @@ body {
     background: #980B26;
     color: #fff; }
 
-.image_main {
+.svg_logotype {
   padding-top: 16rem; }
+  .svg_logotype__image_main {
+    height: 3rem;
+    width: 3rem; }
 
 .offers_text {
   padding-top: 6rem;
   font-size: 4rem;
   color: black; }
+
+.inWorkTestBlock {
+  margin-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 10rem;
+  color: #980B26; }
+
+.smile1 {
+  width: 10rem;
+  height: 10rem; }
 
 @media (min-width: 60rem) {
   .nav {
@@ -1119,4 +1140,22 @@ body {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; } }
+    align-items: center; }
+    .image_main .nav {
+      height: 8rem; }
+      .image_main .nav__container {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row; } }
+
+.text_inMain {
+  font-size: 35px;
+  color: #980B26;
+  display: block; }
+
+.logotype {
+  width: auto; }
+
+path {
+  padding-left: 20px; }

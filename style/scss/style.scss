@@ -102,15 +102,42 @@ body {
         }
     }
 }
-
-.image_main {
+///////////////////////////////////IMPORTANT///////////////////////////////////
+.svg_logotype {
     padding-top: 16rem;
-}
 
+    &__image_main {
+        height: 3rem;
+        width: 3rem;
+    }
+}
+///////////////////////////////////IMPORTANT///////////////////////////////////
 .offers_text {
     padding-top: 6rem;
     font-size: 4rem;
     color: black;
+}
+
+//.testMedia1print {
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//    color: #9b4dca;
+//    font-size: 3rem;
+//}
+
+.inWorkTestBlock {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    color: #980B26;
+}
+
+.smile1 {
+    width: 10rem;
+    height: 10rem;
 }
 
 
@@ -170,9 +197,40 @@ body {
     }
 
     .image_main {
+
+        .nav {
+            height: 8rem;
+
+            &__container {
+                flex-direction: row;
+            }
+        }
+
         width: auto;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+}
+
+//@media print {
+//    .testMedia1print {
+//        color: red;
+//        font-size: 50px;
+//        background-color: yellow;
+//    }
+//}
+
+.text_inMain {
+    font-size: 35px ;
+    color: #980B26;
+    display: block;
+}
+
+.logotype {
+    width: auto;
+}
+
+path {
+    padding-left: 20px;
 }
