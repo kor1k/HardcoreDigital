@@ -1090,16 +1090,6 @@ body {
 .logotype {
   position: relative; }
 
-.instapack_block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-
 .instapack_offers {
   width: 55rem;
   margin-right: 10px;
@@ -1173,7 +1163,17 @@ body {
 
 .moreOffers_btn {
   background-color: #980B26;
-  color: white; }
+  color: white;
+  width: 40rem;
+  height: 5.5rem;
+  font-size: 14px; }
+
+.agency {
+  color: #000; }
+
+.about__us__text {
+  font-size: 2rem;
+  color: #000; }
 
 @media (min-width: 60rem) {
   .nav {

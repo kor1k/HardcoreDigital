@@ -78,6 +78,7 @@ body {
 }
 
 .lang-buttons {
+    
     display: none;
 
     &__mobile {
@@ -96,6 +97,7 @@ body {
         border-radius: 50%;
         background: $dark-hover;
         color: $light;
+
 
         &:hover{
 
@@ -138,11 +140,11 @@ body {
     position: relative;
 }
 
-.instapack_block {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+//.instapack_block {
+//    display: flex;
+//    justify-content: space-between;
+//    flex-wrap: wrap;
+//}
 
 .instapack_offers {
     width: 55rem;
@@ -212,9 +214,28 @@ body {
 .moreOffers_btn {
     background-color: #980B26;
     color: white;
+    width: 40rem;
+    height: 5.5rem;
+    font-size: 14px;
 }
 
 
+//
+
+.agency {
+    color: $dark;
+
+}
+
+.about__us__text {
+    font-size: 2rem;
+    color: $dark;
+
+}
+
+.svg__logo__about__us {
+
+}
 
 @media (min-width: 60.0rem) {
     .nav {
