@@ -1,8 +1,8 @@
 @import "milligram";
 @import "normalize";
-
 //@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 $dark: #000;
 $dark-hover: #980B26;
 $light: #fff;
@@ -98,12 +98,12 @@ body {
     background: $dark-hover;
     color: $light;
 
-
-    &:hover{
+    &:hover {
 
     }
   }
 }
+
 ///////////////////////////////////IMPORTANT///////////////////////////////////
 .svg_logotype {
   padding-top: 18rem;
@@ -113,6 +113,7 @@ body {
     width: 3rem;
   }
 }
+
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\IMPORTANT\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 .offers_text {
   padding-top: 6rem;
@@ -120,9 +121,8 @@ body {
   color: $dark;
 }
 
-
 .text_inMain {
-  font-size: 40px ;
+  font-size: 40px;
   color: $dark;
   position: absolute;
   margin-left: 64rem;
@@ -131,9 +131,10 @@ body {
   float: left;
   margin-top: 7rem;
 }
+
 .red_textInMain:nth-of-type(1) {
   color: #980B26;
-  width:17%;
+  width: 17%;
 }
 
 .logotype {
@@ -257,8 +258,6 @@ body {
   display: flex;
   flex-direction: row;
 }
-
-
 
 
 
