@@ -1101,12 +1101,11 @@ body {
   color: #9C0D28; }
 
 .instapack_title {
+  margin-top: 2rem;
   font-size: 38px; }
 
 .mediapack_offers {
   width: 55rem;
-  margin-right: 10px;
-  margin-left: 10px;
   margin-top: 5rem;
   background-color: white;
   border: 4px solid #000;
@@ -1114,6 +1113,7 @@ body {
   color: #000; }
 
 .mediapack_title {
+  margin-top: 2rem;
   font-size: 38px; }
 
 .instapack_button {
@@ -1174,6 +1174,49 @@ body {
 .about__us__text {
   font-size: 2rem;
   color: #000; }
+
+.standard_pack_offers {
+  width: 53rem;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5rem;
+  background-color: white;
+  border: 4px solid #000;
+  border-radius: 8px;
+  color: #000; }
+
+.s_pack_button {
+  color: white;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  position: relative; }
+
+.packs_row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.pack_row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
 
 @media (min-width: 60rem) {
   .nav {

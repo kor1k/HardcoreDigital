@@ -11,133 +11,133 @@ $light-hover: #CCCCCC;
 $main-font: Roboto, sans-serif;
 
 body {
-    background: white;
-    line-height: normal;
-    font-family: $main-font;
+  background: white;
+  line-height: normal;
+  font-family: $main-font;
 }
 
 .nav {
-    min-height: 12rem;
-    height: auto;
-    background: rgba(255, 255, 255, 0.9);
-    position: fixed;
-    width: 100%;
-    z-index: 9000;
-    box-shadow: 0 8px 20px 0 rgba(200, 123, 123, .5);
-    text-align: center;
+  min-height: 12rem;
+  height: auto;
+  background: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  width: 100%;
+  z-index: 9000;
+  box-shadow: 0 8px 20px 0 rgba(200, 123, 123, .5);
+  text-align: center;
 
-    &__container {
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        align-items: center;
-    }
+  &__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .toggles {
-    width: 100%;
-    height: 10rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    &__burger {
-        color: $dark;
-        cursor: pointer;
+  &__burger {
+    color: $dark;
+    cursor: pointer;
+  }
+
+  &__logo {
+
+    &__image {
+      height: 8rem;
     }
-
-    &__logo {
-
-        &__image {
-            height: 8rem;
-        }
-    }
+  }
 }
 
 .items {
-    display: none;
+  display: none;
 
-    &__mobile {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+  &__mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__link {
+    font-size: 2rem;
+    padding: 0 0 3rem 0;
+    color: $dark;
+    cursor: pointer;
+    font-family: $main-font;
+
+    &:hover {
+      color: $dark-hover;
     }
-
-    &__link {
-        font-size: 2rem;
-        padding: 0 0 3rem 0;
-        color: $dark;
-        cursor: pointer;
-        font-family: $main-font;
-
-        &:hover {
-            color: $dark-hover;
-        }
-    }
+  }
 }
 
 .lang-buttons {
-    
-    display: none;
 
-    &__mobile {
-        display: flex;
+  display: none;
+
+  &__mobile {
+    display: flex;
+  }
+
+  &__button {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin: 0 1rem 2rem;
+    height: auto;
+    padding: 1.2rem .9rem;
+    line-height: 1.5rem;
+    border: 1px solid $light;
+    border-radius: 50%;
+    background: $dark-hover;
+    color: $light;
+
+
+    &:hover{
+
     }
-
-    &__button {
-        font-family: $main-font;
-        font-weight: 500;
-        font-size: 1.6rem;
-        margin: 0 1rem 2rem;
-        height: auto;
-        padding: 1.2rem .9rem;
-        line-height: 1.5rem;
-        border: 1px solid $light;
-        border-radius: 50%;
-        background: $dark-hover;
-        color: $light;
-
-
-        &:hover{
-
-        }
-    }
+  }
 }
 ///////////////////////////////////IMPORTANT///////////////////////////////////
 .svg_logotype {
-    padding-top: 18rem;
+  padding-top: 18rem;
 
-    &__image_main {
-        height: 3rem;
-        width: 3rem;
-    }
+  &__image_main {
+    height: 3rem;
+    width: 3rem;
+  }
 }
 //\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\IMPORTANT\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 .offers_text {
-    padding-top: 6rem;
-    font-size: 5rem;
-    color: $dark;
+  padding-top: 6rem;
+  font-size: 5rem;
+  color: $dark;
 }
 
 
 .text_inMain {
-    font-size: 40px ;
-    color: $dark;
-    position: absolute;
-    margin-left: 64rem;
-    display: flex;
-    flex-direction: column;
-    float: left;
-    margin-top: 7rem;
+  font-size: 40px ;
+  color: $dark;
+  position: absolute;
+  margin-left: 64rem;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-top: 7rem;
 }
 .red_textInMain:nth-of-type(1) {
-    color: #980B26;
-    width:17%;
+  color: #980B26;
+  width:17%;
 }
 
 .logotype {
-    position: relative;
+  position: relative;
 }
 
 //.instapack_block {
@@ -147,163 +147,188 @@ body {
 //}
 
 .instapack_offers {
-    width: 55rem;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 5rem;
-    background-color: white;
-    border: 4px solid #9C0D28;
-    border-radius: 8px;
-    color: #9C0D28;
+  width: 55rem;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5rem;
+  background-color: white;
+  border: 4px solid #9C0D28;
+  border-radius: 8px;
+  color: #9C0D28;
 }
 
 .instapack_title {
-    font-size: 38px;
+  margin-top: 2rem;
+  font-size: 38px;
 }
 
 .mediapack_offers {
-    width: 55rem;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 5rem;
-    background-color: white;
-    border: 4px solid $dark;
-    border-radius: 8px;
-    color: $dark
+  width: 55rem;
+  //margin-right: 10px;
+  //margin-left: 10px;
+  margin-top: 5rem;
+  background-color: white;
+  border: 4px solid $dark;
+  border-radius: 8px;
+  color: $dark
 }
 
 .mediapack_title {
-    font-size: 38px;
+  margin-top: 2rem;
+  font-size: 38px;
 }
 
-//.instapack_title, .instapack_price {
-//    display: flex;
-//    justify-content: space-between;
-//}
-
 .instapack_button {
-    color: white;
-    background-color: #980B26;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 4rem;
+  color: white;
+  background-color: #980B26;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
 }
 
 .mediapack_button {
-    color: white;
-    background-color: $dark;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 4rem;
+  color: white;
+  background-color: $dark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
 }
 
 .mediapack_1 {
-    color: #606c76;
-    font-size: 1.5rem;
+  color: #606c76;
+  font-size: 1.5rem;
 }
 
 .more_offers {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
+
 .moreOffers_btn {
-    background-color: #980B26;
-    color: white;
-    width: 40rem;
-    height: 5.5rem;
-    font-size: 14px;
+  background-color: #980B26;
+  color: white;
+  width: 40rem;
+  height: 5.5rem;
+  font-size: 14px;
 }
-
-
-//
 
 .agency {
-    color: $dark;
-
+  color: $dark;
 }
 
 .about__us__text {
-    font-size: 2rem;
-    color: $dark;
+  font-size: 2rem;
+  color: $dark;
 
 }
 
-.svg__logo__about__us {
-
+.standard_pack_offers {
+  width: 53rem;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5rem;
+  background-color: white;
+  border: 4px solid $dark;
+  border-radius: 8px;
+  color: $dark
 }
+
+.s_pack_button {
+  color: white;
+  background-color: $dark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.packs_row1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.pack_row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
 
 @media (min-width: 60.0rem) {
+  .nav {
+    height: 8rem;
+
+    &__container {
+      flex-direction: row;
+    }
+  }
+
+  .toggles {
+    width: auto;
+
+    &__logo__svg:hover g {
+      fill: $light-hover !important;
+    }
+
+    &__burger {
+      display: none;
+    }
+  }
+
+  .items {
+    display: flex;
+    flex-direction: row;
+
+    &__link {
+      font-size: 2.3rem;
+      padding: 4rem;
+      color: $dark;
+      cursor: pointer;
+      font-family: $main-font;
+      font-weight: 500;
+
+      &:hover {
+        color: $dark-hover;
+      }
+    }
+  }
+
+  .lang-buttons {
+    display: flex;
+    align-items: center;
+
+    &__button {
+      margin: 0 1rem;
+
+      &:hover {
+        background: $light;
+        border: 1px solid $light;
+        color: $dark;
+      }
+    }
+  }
+
+  .image_main {
+
     .nav {
-        height: 8rem;
+      height: 8rem;
 
-        &__container {
-            flex-direction: row;
-        }
-    }
-
-    .toggles {
-        width: auto;
-
-        &__logo__svg:hover g {
-            fill: $light-hover !important;
-        }
-
-        &__burger {
-            display: none;
-        }
-    }
-
-    .items {
-        display: flex;
+      &__container {
         flex-direction: row;
-
-        &__link {
-            font-size: 2.3rem;
-            padding: 4rem;
-            color: $dark;
-            cursor: pointer;
-            font-family: $main-font;
-            font-weight: 500;
-
-            &:hover {
-                color: $dark-hover;
-            }
-        }
+      }
     }
 
-    .lang-buttons {
-        display: flex;
-        align-items: center;
-
-        &__button {
-            margin: 0 1rem;
-
-            &:hover {
-                background: $light;
-                border: 1px solid $light;
-                color: $dark;
-            }
-        }
-    }
-
-    .image_main {
-
-        .nav {
-            height: 8rem;
-
-            &__container {
-                flex-direction: row;
-            }
-        }
-
-        width: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
